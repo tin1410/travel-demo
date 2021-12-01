@@ -1,0 +1,272 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+/* .menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #214875;
+}
+.menu .trai {
+  color: white;
+  cursor: pointer;
+}
+.menu .trai span {
+  color: #06f457;
+}
+
+.nav li {
+  list-style: none;
+  padding: 10px 20px 10px 20px;
+  font-size: 20px;
+  display: inline-block;
+  margin-right: 10px;
+}
+.nav li:hover {
+  background-color: teal;
+}
+.nav li a {
+  color: white;
+  text-decoration: none;
+}
+.menu .phai {
+  font-size: 20px;
+  color: white;
+} */
+
+/* slide */
+.slide .slide-inner .slide-item {
+  width: 100%;
+  height: 100%;
+}
+.slide-item img {
+  width: 100%;
+  height: 100%;
+}
+.slide-item .caption h3 {
+  color: white;
+  font-weight: bold;
+  font-size: 80px;
+}
+.slide-item .caption p {
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+}
+.slide-item .btn {
+  border: 0;
+  background-color: #06f457;
+  color: #daf9d9;
+}
+.heading {
+  text-align: center;
+  padding: 25px 0;
+}
+.heading span {
+  font-size: 35px;
+  background-color: #ceffdfbe;
+  color: #06f756be;
+  border-radius: 5px;
+  padding: 2px 10px;
+}
+.heading .space {
+  background: none;
+}
+.rowbook .anh img {
+  width: 100%;
+  height: 100%;
+}
+.rowbook form {
+  padding: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+.rowbook .form .inputbox {
+  padding: 50px 0;
+}
+.rowbook form .btn {
+  padding: 10px 10px 10px 10px;
+  background-color: #06f457;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: white;
+  margin-top: 5px;
+}
+.rowbook form .inputbox h3 {
+  font-size: 20px;
+  padding: 10px;
+}
+.rowbook form .inputbox input {
+  width: 100%;
+  padding: 10px;
+  font-size: 17px;
+}
+.container {
+  margin-top: 20px;
+  align-items: stretch;
+  
+}
+
+.rowpackages .col-sm-4 {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  
+}
+.rowpackages .box {
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+  flex-direction: column;
+  
+}
+.rowpackages .box img {
+  min-width: 100%;
+  height: 200px;
+  flex-shrink: 0;
+}
+.rowpackages .box .content {
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.rowpackages .box .content h3 {
+  font-size: 20px;
+  color: #333;
+}
+.rowpackages .box .content p {
+  /* khi giới hạn dòng bằng ... */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+.rowpackages .box .content h3 i {
+  font-size: 20px;
+  color: #06f457;
+  padding: 5px;
+}
+.rowpackages .box .content .stars {
+  margin-top: auto;
+}
+.rowpackages .box .content .stars i {
+  color: #06f457;
+}
+.rowpackages .box .content .price {
+  font-weight: bold;
+}
+.rowpackages .box .content .btn {
+  padding: 5px 5px 5px 5px;
+  background-color: #06f457;
+  color: white;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  width: 100px;
+}
+.rowpackages .box .content .btn:hover {
+  background-color: #ceffdfbe;
+  border: 1px solid #06f457;
+  color: #06f457;
+}
+
+.rowsv .box {
+  padding-top: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+.rowsv .box:hover {
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+.rowsv .box i {
+  font-size: 50px;
+  color: #06f457;
+}
+.rowsv .box h3 {
+  font-weight: bold;
+}
+.rowgl .box {
+  margin-top: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border: 10px solid white;
+  border-radius: 5px;
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+  padding-left: 0;
+  padding-right: 0;
+  cursor: pointer;
+}
+.rowgl img {
+  width: 100%;
+  height: 100%;
+}
+.rowgl .box .content {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  padding-top: 50px;
+  transition: 0.5s;
+}
+.rowgl .box:hover .content {
+  top: 0;
+  transition: 0.5s;
+}
+.rowgl .box .content h3 {
+  font-size: 25px;
+  color: #06f457;
+}
+.rowgl .box .content p {
+  font-size: 15px;
+  color: white;
+}
+
+.rowgl .box .content .btn {
+  padding: 5px 5px 5px 5px;
+  background-color: #06f457;
+  color: white;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+.card h4 {
+  color: #00d588;
+  font-weight: bold;
+}
+.card .star {
+  color: #06f457;
+  margin-bottom: 10px;
+}
+
+.card img {
+  width: 100px;
+  border-radius: 50%;
+  margin: 10px auto;
+}
+
+@media (max-width: 450px) {
+  .heading span {
+    font-size: 20px;
+  }
+}
